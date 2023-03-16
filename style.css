@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+}
+.card1{
+  grid-area: lorem;
+}
+.card2 {
+  grid-area: officia;
+}
+.card3{
+  grid-area: culpa;
+}
+.card4{
+  grid-area: mollit;
+}
+.card5{
+  grid-area: exercitation;
+}
+.card6{
+  grid-area: magna;
+}
+.card7{
+  grid-area: fugiat;
+}
+.card8{
+  grid-area: ullamaco;
+}
+.card9{
+  grid-area: laboris;
+}
+.card10{
+  grid-area: consectetur;
+}
+.card11{
+  grid-area: pariatur;
+}
+.card12{
+  grid-area: dolore;
+}
+.card13{
+  grid-area: excepteur;
+}
+main {
+    padding: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:
+      "lorem culpa officia officia"
+      "lorem mollit mollit fugiat"
+      "exercitation magna laboris fugiat"
+      "ullamaco ullamaco laboris consectetur"
+      "pariatur dolore dolore excepteur";
+}
+main div {
+  background-color: aliceblue;
+}
